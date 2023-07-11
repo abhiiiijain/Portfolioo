@@ -56,7 +56,7 @@ const SocialIcons = (props) => {
         <NavLink
           style={{ color: "inherit" }}
           target="_blank"
-          to={{ pathname: "https://github.com/abhiiiijain" }}
+          // to={{ pathname: "https://github.com/abhiiiijain" }}
         >
           <Github
             width={25}
@@ -75,7 +75,7 @@ const SocialIcons = (props) => {
         <NavLink
           style={{ color: "inherit" }}
           target="_blank"
-          to={{ pathname: "https://twitter.com/abhiiiijain1" }}
+          // to={{ pathname: "https://twitter.com/abhiiiijain1" }}
         >
           <Twitter
             width={25}
@@ -94,7 +94,7 @@ const SocialIcons = (props) => {
         <NavLink
           style={{ color: "inherit" }}
           target="_blank"
-          to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
+          // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
         >
           <Instagram
             width={25}

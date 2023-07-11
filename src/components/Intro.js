@@ -185,7 +185,7 @@ const Intro = () => {
 
           <h3>I'm Abhinandan Jain</h3>
 
-          <h5>I am B.Tech CSE Final Year Student</h5>
+          <h5>I am B.Tech CSE Graduate</h5>
         </Text>
       </SubBox>
 
