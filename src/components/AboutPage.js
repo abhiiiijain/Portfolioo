@@ -107,10 +107,18 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            Currently pursuing Bachelors of Technology from Chandigarh
+            {/* Currently pursuing Bachelors of Technology from Chandigarh
             Engineering College, CGC Landran. Skilled in C, C++, Web
             Development(HTML, CSS, Java Script and reactJS) with Good Problem
-            Solving Skills and profound Knowledge of C, C++ and Data Structures.
+            Solving Skills and profound Knowledge of C, C++ and Data Structures. */}
+            I am driven by the desire to work and grow in a dynamic and competitive workplace, 
+            where I can explore cutting-edge technologies, expand my knowledge horizons, and 
+            achieve both personal and organizational objectives. I did my Bachelor's of Technology 
+            in Computer Science from Chandigarh Engineering College, CGC Landran. My skills include 
+            proficiency in C++, Data Structures and Algorithms (DSA), and Web Development. I have 
+            hands-on experience in C++ programming and have earned a 5-star C++ badge on Hackerrank. 
+            In addition, I am adept at web development technologies such as HTML, CSS, JavaScript, 
+            and ReactJS. I possess strong problem-solving skills and a solid understanding of data structures.
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
