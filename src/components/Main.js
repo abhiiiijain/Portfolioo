@@ -92,7 +92,7 @@ const Center = styled.button`
   }
 `;
 
-const Contact = styled(NavLink)`
+const Contact = styled.a`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
   top: 2rem;
@@ -198,7 +198,8 @@ const Main = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={path === "about" || path === "skills" ? moveY : moveX}
-        transition={{ duration: 0.5 }}>
+        transition={{ duration: 0.5 }}
+      >
         <DarkDiv click={click} />
         <Container>
           <LogoComponent theme={click ? "dark" : "light"} />
@@ -232,7 +233,8 @@ const Main = () => {
             <Contact
               click={+click}
               target="_blank"
-              to={{ pathname: "mailto:abhinandanbansal123@gmail.com" }}>
+              href="mailto:abhinandanbansal123@gmail.com"
+            >
               <motion.h3
                 initial={{
                   y: -200,
@@ -243,7 +245,8 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}>
+                whileTap={{ scale: 0.9 }}
+              >
                 Say hi..
               </motion.h3>
             </Contact>
@@ -251,7 +254,8 @@ const Main = () => {
             <Contact
               click={+false}
               target="_blank"
-              to={{ pathname: "mailto:abhinandanbansal123@gmail.com" }}>
+              href="mailto:abhinandanbansal123@gmail.com"
+            >
               <motion.h3
                 initial={{
                   y: -200,
@@ -262,7 +266,8 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}>
+                whileTap={{ scale: 0.9 }}
+              >
                 Say hi..
               </motion.h3>
             </Contact>
@@ -280,7 +285,8 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}>
+                whileTap={{ scale: 0.9 }}
+              >
                 Certifications
               </motion.h2>
             </BLOG>
@@ -296,7 +302,8 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}>
+                whileTap={{ scale: 0.9 }}
+              >
                 Certifications
               </motion.h2>
             </BLOG>
@@ -314,7 +321,8 @@ const Main = () => {
                 transition: { type: "spring", duration: 1.5, delay: 1 },
               }}
               whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}>
+              whileTap={{ scale: 0.9 }}
+            >
               Projects
             </motion.h2>
           </WORK>
@@ -323,7 +331,8 @@ const Main = () => {
             <ABOUT
               onClick={() => setClick(false)}
               click={mq ? +false : +click}
-              to="/about">
+              to="/about"
+            >
               <motion.h2
                 onClick={() => setpath("about")}
                 initial={{
@@ -335,7 +344,8 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}>
+                whileTap={{ scale: 0.9 }}
+              >
                 About.
               </motion.h2>
             </ABOUT>
@@ -352,7 +362,8 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}>
+                whileTap={{ scale: 0.9 }}
+              >
                 My Skills.
               </motion.h2>
             </SKILLS>
