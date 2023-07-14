@@ -5,7 +5,8 @@ export const Work = [
         description:"It is build using Php, Bootstrap and database used is MySql",
         tags:["bootstrap","php","MySql"],
         
-        demo:"https://sarsimprecation.000webhostapp.com/",
+        // demo:"https://sarsimprecation.000webhostapp.com/",
+        demo:"https://github.com/abhiiiijain/SARS-Imprecation",
         github:"https://github.com/abhiiiijain/SARS-Imprecation"
     },
     {
@@ -33,7 +34,8 @@ export const Work = [
         description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
         tags:["react","styledComponents","react-router"],
         
-        demo:"https://samadhaaan.000webhostapp.com",
+        // demo:"https://samadhaaan.000webhostapp.com",
+        demo:"https://github.com/abhiiiijain/Samadhan",
         github:"https://github.com/abhiiiijain/Samadhan"
        
     },{
@@ -57,15 +59,25 @@ export const Work = [
         
     },
     {
-        id:6,
+        id:7,
         name:"Portfolioo",
         description:"A simple porfolio about ME.",
         tags:["reactjs"],
         
-        demo:"https://abhiiiijain.herokuapp.com/",
+        demo:"https://abhiiiijain.github.io/Portfolioo/",
         github:"https://github.com/abhiiiijain/Portfolioo"
         
     },
+    // {
+    //     id:8,
+    //     name:"Arkitektur",
+    //     description:"An Interior Design Website.",
+    //     tags:["mongoDB, reactjs, nodeJs"],
+        
+    //     demo:"https://github.com/abhiiiijain/Arkitektur",
+    //     github:"https://github.com/abhiiiijain/Arkitektur"
+        
+    // },
     
   
 ] 
