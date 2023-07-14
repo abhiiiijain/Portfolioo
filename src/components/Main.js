@@ -100,7 +100,8 @@ const Contact = styled.a`
   text-decoration: none;
   z-index: 1;
 `;
-const BLOG = styled(NavLink)`
+// const BLOG = styled(NavLink)`
+const Certification = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
   top: 50%;
@@ -113,7 +114,8 @@ const BLOG = styled(NavLink)`
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
 `;
-const WORK = styled(NavLink)`
+// const WORK = styled(NavLink)`
+const PROJECT = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
   top: 50%;
@@ -187,7 +189,8 @@ const Main = () => {
     y: "-100%",
   };
   const moveX = {
-    x: `${path === "work" ? "100%" : "-100%"}`,
+    // x: `${path === "work" ? "100%" : "-100%"}`,
+    x: `${path === "project" ? "100%" : "-100%"}`,
   };
   const mq = window.matchMedia("(max-width: 50em)").matches;
 
@@ -291,7 +294,8 @@ const Main = () => {
               </motion.h2>
             </BLOG> */}
           {/* ) : ( */}
-            <BLOG click={+false} onClick={() => setpath("blog")} to="/blog">
+            {/* <BLOG click={+false} onClick={() => setpath("blog")} to="/blog"> */}
+            <Certification click={+false} onClick={() => setpath("certification")} to="/certifications">
               <motion.h2
                 initial={{
                   y: -200,
@@ -306,12 +310,14 @@ const Main = () => {
               >
                 Certifications
               </motion.h2>
-            </BLOG>
+            </Certification>
           {/* )} */}
 
-          <WORK click={+click} to="/work">
+          {/* <WORK click={+click} to="/work"> */}
+          <PROJECT click={+click} to="/projects">
             <motion.h2
-              onClick={() => setpath("work")}
+              // onClick={() => setpath("work")}
+              onClick={() => setpath("project")}
               initial={{
                 y: -200,
                 transition: { type: "spring", duration: 1.5, delay: 1 },
@@ -325,7 +331,7 @@ const Main = () => {
             >
               Projects
             </motion.h2>
-          </WORK>
+          </PROJECT>
 
           <BottomBar>
             <ABOUT

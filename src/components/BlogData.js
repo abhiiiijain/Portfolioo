@@ -1,11 +1,13 @@
-export const Blogs = [
+// export const Blogs = [
+export const Certifications = [
     {
         id:1,
         name:"React Js ThinkNext Techonologies Pvt. Ltd.(Online).",
         tags:["react"],
         // date:"13 May, 2021",
         imgSrc:"https://repository-images.githubusercontent.com/37153337/9d0a6780-394a-11eb-9fd1-6296a684b124",
-        link:"http://certificates.thinknexttraining.com/en/verify/85494246192917"
+        // link:"http://certifications.thinknexttraining.com/en/verify/85494246192917"
+        href:"http://certifications.thinknexttraining.com/en/verify/85494246192917"
     },
     {
         id:2,
@@ -13,7 +15,7 @@ export const Blogs = [
         tags:["python"],
         //date:"5 July, 2021",
         imgSrc:"https://rbots.in/wp-content/uploads/2018/09/python-logo.png",
-        link:"https://ninjasfiles.s3.amazonaws.com/certificate10579455ae927e27c9741d63d3f039c4a7f566e.pdf"
+        href:"https://ninjasfiles.s3.amazonaws.com/certification10579455ae927e27c9741d63d3f039c4a7f566e.pdf"
     },
     {
         id:3,
@@ -21,7 +23,7 @@ export const Blogs = [
         tags:["C++"],
         // date:"6 July, 2021",
         imgSrc:"https://media.geeksforgeeks.org/wp-content/cdn-uploads/titleShadow-1024x341.png",
-        // link:"https://www.coursera.org/account/accomplishments/verify/94PDADY56XCY?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+        // link:"https://www.coursera.org/account/accomplishments/verify/94PDADY56XCY?utm_source=link&utm_medium=certification&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
     },
     // {
     //     id:4,

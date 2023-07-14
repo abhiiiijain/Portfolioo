@@ -10,8 +10,10 @@ import Loading from "./subComponents/Loading";
 const Main = lazy(() => import("./components/Main"));
 const AboutPage = lazy(() => import("./components/AboutPage"));
 const MySkillsPage = lazy(() => import("./components/MySkillsPage"));
-const BlogPage = lazy(() => import("./components/BlogPage"));
-const WorkPage = lazy(() => import("./components/WorkPage"));
+// const BlogPage = lazy(() => import("./components/BlogPage"));
+const CertificationPage = lazy(() => import("./components/CertificationPage"));
+// const WorkPage = lazy(() => import("./components/WorkPage"));
+const ProjectPage = lazy(() => import("./components/ProjectPage"));
 const SoundBar = lazy(() => import("./subComponents/SoundBar"));
 
 function App() {
@@ -35,9 +37,13 @@ function App() {
 
               <Route path="/about" element={<AboutPage />} />
 
-              <Route path="/blog" element={<BlogPage />} />
+              {/* <Route path="/blog" element={<BlogPage />} /> */}
+              
+              <Route path="/certifications" element={<CertificationPage />} />
 
-              <Route path="/work" element={<WorkPage />} />
+              {/* <Route path="/work" element={<WorkPage />} /> */}
+              
+              <Route path="/projects" element={<ProjectPage />} />
 
               <Route path="/skills" element={<MySkillsPage />} />
 

@@ -1,4 +1,5 @@
-export const Work = [
+// export const Work = [
+export const Project = [
     {
         id:1,
         name:"Sars-Imprecation",

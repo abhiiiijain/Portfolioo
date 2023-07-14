@@ -56,7 +56,7 @@ const SocialIcons = (props) => {
       >
         <a
           style={{ color: "inherit" }}
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href={"https://github.com/abhiiiijain" }
           // to={{ pathname: "https://github.com/abhiiiijain" }}
         >
@@ -78,7 +78,7 @@ const SocialIcons = (props) => {
       >
         <a
           style={{ color: "inherit" }}
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href={"https://twitter.com/abhiiiijain1" }
           // to={{ pathname: "https://twitter.com/abhiiiijain1" }}
         >
@@ -100,7 +100,7 @@ const SocialIcons = (props) => {
       >
         <a
           style={{ color: "inherit" }}
-          target="_blank"
+          target="_blank" rel="noreferrer"
           href={"https://www.instagram.com/abhiiiijain" }
           // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
         >
