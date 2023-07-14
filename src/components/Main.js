@@ -104,8 +104,8 @@ const BLOG = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
   top: 50%;
-  right: calc(1rem + 2vw);
-  transform: rotate(90deg) translate(-50%, -50%);
+  right: calc(-8rem + 2vw);
+  transform: translate(-50%, -50%) rotate(90deg);
   z-index: 1;
 
   text-decoration: none;
@@ -273,8 +273,8 @@ const Main = () => {
             </Contact>
           )}
 
-          {mq ? (
-            <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
+          {/* {mq ? ( */}
+            {/* <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
               <motion.h2
                 initial={{
                   y: -200,
@@ -289,8 +289,8 @@ const Main = () => {
               >
                 Certifications
               </motion.h2>
-            </BLOG>
-          ) : (
+            </BLOG> */}
+          {/* ) : ( */}
             <BLOG click={+false} onClick={() => setpath("blog")} to="/blog">
               <motion.h2
                 initial={{
@@ -307,7 +307,7 @@ const Main = () => {
                 Certifications
               </motion.h2>
             </BLOG>
-          )}
+          {/* )} */}
 
           <WORK click={+click} to="/work">
             <motion.h2
