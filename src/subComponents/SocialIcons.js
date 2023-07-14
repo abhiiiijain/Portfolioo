@@ -48,6 +48,7 @@ const SocialIcons = (props) => {
   return (
     <Icons>
     {/* changed initial [transform: "scale(0)"] to [scale: 0] */}
+    {/* Github Icon */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
@@ -68,6 +69,8 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
+
+      {/* Twitter Icon */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
@@ -88,6 +91,8 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
+
+      {/* Instagram Icon */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
@@ -108,6 +113,30 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
+
+      {/* Facebook Icon */}
+      {/* <motion.div
+        initial={{ scale: 0 }}
+        animate={{ scale: [0, 1, 1.5, 1] }}
+        transition={{ type: "spring", duration: 1, delay: 1.4 }}
+      >
+        <a
+          style={{ color: "inherit" }}
+          target="_blank"
+          href={"https://www.facebook.com/abhiiiijain/" }
+          // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
+        >
+          <Facebook
+            width={25}
+            height={25}
+            fill={
+              props.theme === "dark" ? `${DarkTheme.text}` : `${DarkTheme.body}`
+            }
+          />
+        </a>
+      </motion.div> */}
+
+      {/* Youtube Icon */}
       {/* <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
