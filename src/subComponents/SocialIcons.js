@@ -1,4 +1,10 @@
-import { Github, Twitter, Instagram, Facebook, YouTube } from "../components/AllSvgs";
+import {
+  Github,
+  Twitter,
+  Instagram,
+  Facebook,
+  YouTube,
+} from "../components/AllSvgs";
 
 import styled from "styled-components";
 import { motion } from "framer-motion";
@@ -47,17 +53,17 @@ const SocialIcons = (props) => {
 
   return (
     <Icons>
-    {/* changed initial [transform: "scale(0)"] to [scale: 0] */}
-    {/* Github Icon */}
+      {/* changed initial [transform: "scale(0)"] to [scale: 0] */}
+      {/* Github Icon */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1 }}
-      >
+        transition={{ type: "spring", duration: 1, delay: 1 }}>
         <a
           style={{ color: "inherit" }}
-          target="_blank" rel="noreferrer"
-          href={"https://github.com/abhiiiijain" }
+          target="_blank"
+          rel="noreferrer"
+          href={"https://github.com/abhiiiijain"}
           // to={{ pathname: "https://github.com/abhiiiijain" }}
         >
           <Github
@@ -74,12 +80,12 @@ const SocialIcons = (props) => {
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1.2 }}
-      >
+        transition={{ type: "spring", duration: 1, delay: 1.2 }}>
         <a
           style={{ color: "inherit" }}
-          target="_blank" rel="noreferrer"
-          href={"https://twitter.com/abhiiiijain1" }
+          target="_blank"
+          rel="noreferrer"
+          href={"https://twitter.com/abhiiiijain1"}
           // to={{ pathname: "https://twitter.com/abhiiiijain1" }}
         >
           <Twitter
@@ -96,12 +102,12 @@ const SocialIcons = (props) => {
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1.4 }}
-      >
+        transition={{ type: "spring", duration: 1, delay: 1.4 }}>
         <a
           style={{ color: "inherit" }}
-          target="_blank" rel="noreferrer"
-          href={"https://www.instagram.com/abhiiiijain" }
+          target="_blank"
+          rel="noreferrer"
+          href={"https://www.instagram.com/abhiiiijain"}
           // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
         >
           <Instagram

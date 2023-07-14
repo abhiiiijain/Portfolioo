@@ -115,7 +115,7 @@ const CertificationComponent = (props) => {
   const { name, tags, date, imgSrc, link } = props.certification;
   return (
     <Container variants={item}>
-      <Box target="_blank" to={{ pathname: `${link}` }}>
+      <Box target="_blank" href={`${link}`}>
         <Image img={imgSrc} />
         <Title>{name}</Title>
         <HashTags>

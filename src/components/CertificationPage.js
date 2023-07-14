@@ -99,7 +99,10 @@ const CertificationPage = () => {
                 <BlogComponent key={blog.id} blog={blog} />
               ))} */}
               {Certifications.map((certification) => (
-                <CertificationComponent key={certification.id} certification={certification} />
+                <CertificationComponent
+                  key={certification.id}
+                  certification={certification}
+                />
               ))}
             </Grid>
           </Center>

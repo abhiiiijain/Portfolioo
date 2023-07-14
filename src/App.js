@@ -38,11 +38,11 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
 
               {/* <Route path="/blog" element={<BlogPage />} /> */}
-              
+
               <Route path="/certifications" element={<CertificationPage />} />
 
               {/* <Route path="/work" element={<WorkPage />} /> */}
-              
+
               <Route path="/projects" element={<ProjectPage />} />
 
               <Route path="/skills" element={<MySkillsPage />} />
@@ -57,4 +57,3 @@ function App() {
 }
 
 export default App;
-
