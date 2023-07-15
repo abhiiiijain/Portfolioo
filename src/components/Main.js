@@ -101,12 +101,12 @@ const Contact = styled.a`
   z-index: 1;
 `;
 // const BLOG = styled(NavLink)`
-const Certification = styled(NavLink)`
+const CERTIFICATION = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
-  top: 50%;
-  right: calc(-8rem + 2vw);
-  transform: translate(-50%, -50%) rotate(90deg);
+  top: 55%;
+  right: calc(-2rem + 2vw);
+  transform: rotate(90deg) translate(-50%, -50%) ;
   z-index: 1;
 
   text-decoration: none;
@@ -271,8 +271,9 @@ const Main = () => {
             </Contact>
           )}
 
-          {/* {mq ? ( */}
-          {/* <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
+          {mq ? (
+          // <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
+          <CERTIFICATION click={+click} onClick={() => setpath("certification")} to="/certifications">
               <motion.h2
                 initial={{
                   y: -200,
@@ -287,10 +288,10 @@ const Main = () => {
               >
                 Certifications
               </motion.h2>
-            </BLOG> */}
-          {/* ) : ( */}
-          {/* <BLOG click={+false} onClick={() => setpath("blog")} to="/blog"> */}
-          <Certification
+            </CERTIFICATION>
+          ) : (
+            // <BLOG click={+false} onClick={() => setpath("blog")} to="/blog">
+            <CERTIFICATION
             click={+false}
             onClick={() => setpath("certification")}
             to="/certifications">
@@ -307,8 +308,8 @@ const Main = () => {
               whileTap={{ scale: 0.9 }}>
               Certifications
             </motion.h2>
-          </Certification>
-          {/* )} */}
+          </CERTIFICATION>
+          )}
 
           {/* <WORK click={+click} to="/work"> */}
           <PROJECT click={+click} to="/projects">
