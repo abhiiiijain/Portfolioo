@@ -2,36 +2,86 @@
 export const Certifications = [
   {
     id: 1,
-    name: "React Js ThinkNext Techonologies Pvt. Ltd.(Online).",
-    tags: ["react"],
-    // date:"13 May, 2021",
-    imgSrc:
-      "https://repository-images.githubusercontent.com/37153337/9d0a6780-394a-11eb-9fd1-6296a684b124",
-    // link:"http://certifications.thinknexttraining.com/en/verify/85494246192917"
+    name: "MERN Stack | A2it Online Pvt. Ltd.",
+    tags: ["ReactJS", "MongoDB", "NodeJS"],
+    date: "June 03, 2023",
+    imgSrc: "https://i.imgur.com/zLuO6Id.png",
+    link: "https://drive.google.com/file/d/1IsY2qIs1rBV7XLZFS4VfciKgAWqxncDw/view?usp=sharing/",
   },
   {
     id: 2,
-    name: "Introduction to Python Coding Ninjas (Online)",
-    tags: ["python"],
-    //date:"5 July, 2021",
-    imgSrc: "https://rbots.in/wp-content/uploads/2018/09/python-logo.png",
-    // link:"https://ninjasfiles.s3.amazonaws.com/certification10579455ae927e27c9741d63d3f039c4a7f566e.pdf"
+    name: "ReactJs | ThinkNext Techonologies Pvt. Ltd.",
+    tags: ["ReactJS"],
+    date: "July 31, 2021",
+    imgSrc: "https://i.imgur.com/OXlxFwF.png",
+    link: "https://certificates.thinknexttraining.com/en/verify/85494246192917/",
   },
   {
     id: 3,
-    name: "C++ For C Programmers Coursera (online)",
-    tags: ["C++"],
-    // date:"6 July, 2021",
-    imgSrc:
-      "https://media.geeksforgeeks.org/wp-content/cdn-uploads/titleShadow-1024x341.png",
-    // link:"https://www.coursera.org/account/accomplishments/verify/94PDADY56XCY?utm_source=link&utm_medium=certification&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    name: "SQL (Basic) | HackerRank",
+    tags: ["SQL"],
+    date: "Sep 29, 2021",
+    imgSrc: "https://i.imgur.com/i2fxuPt.jpg",
+    link: "https://www.hackerrank.com/certificates/aa092616e2d1/",
   },
-  // {
-  //     id:4,
-  //     name:"How to build a Fabulous Todo App using React, Redux and Framer-Motion",
-  //     tags:["react","redux","framer-motion"],
-  //     date:"26 May, 2021",
-  //     imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--r5oUDhhT--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/036s7j5b73up7455rdth.png",
-  //     link:"https://dev.to/codebucks/build-redux-react-todo-list-app-with-animations-using-framer-motion-1mp1"
-  // },
+  {
+    id: 4,
+    name: "React (Basic) | HackerRank",
+    tags: ["ReactJS"],
+    date: "Sep 28, 2021",
+    imgSrc: "https://i.imgur.com/6KrZAGd.jpg",
+    link: "https://www.hackerrank.com/certificates/18fb8a9f4368/",
+  },
+  {
+    id: 5,
+    name: "Introduction to Python | Coding Ninjas",
+    tags: ["Python"],
+    date: "Sep 27, 2020",
+    imgSrc: "https://i.imgur.com/9hRqqgw.png",
+    link: "https://ninjasfiles.s3.amazonaws.com/certificate10579455ae927e27c9741d63d3f039c4a7f566e.pdf",
+  },
+  {
+    id: 6,
+    name: "C (Advanced) | HackerRank",
+    tags: ["C"],
+    date:"Sep 15, 2020",
+    imgSrc:
+      "https://i.imgur.com/p0s9ZXC.jpg",
+    link: "https://www.hackerrank.com/certificates/53f0b0236fe8/",
+  },
+  {
+    id: 7,
+    name: "C++ For C Programmers | Coursera",
+    tags: ["C++"],
+    date:"May 28, 2020",
+    imgSrc:
+      "https://i.imgur.com/r1iiCyc.png",
+    link: "https://www.coursera.org/account/accomplishments/certificate/94PDADY56XCY/",
+  },
+  {
+    id: 8,
+    name: "Introduction to CSS3 | Coursera",
+    tags: ["CSS"],
+    date:"May 24, 2020",
+    imgSrc: "https://i.imgur.com/s4qkIn7.png",
+    link: "https://www.coursera.org/account/accomplishments/certificate/NUEWY98LUPZT/",
+  },
+  {
+    id: 9,
+    name: "C for Everyone: Programming Fundamentals | Coursera",
+    tags: ["C"],
+    date:"May 11, 2020",
+    imgSrc:
+      "https://i.imgur.com/NFPpu4O.png",
+    link: "https://www.coursera.org/account/accomplishments/certificate/UZ2X95M7KNDL/",
+  },
+  {
+    id: 10,
+    name: "Introduction to HTML5 | Coursera",
+    tags: ["HTML"],
+    date:"May 08, 2020",
+    imgSrc:
+      "https://i.imgur.com/lgwFfhK.png",
+    link: "https://www.coursera.org/account/accomplishments/certificate/NUEWY98LUPZT/",
+  },
 ];

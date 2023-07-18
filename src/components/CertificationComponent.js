@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { mediaQueries } from "./Themes";
 
-const Box = styled(motion(NavLink))`
+const Box = styled(motion.a)`
   backdrop-filter: blur(2px);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   text-decoration: none;
@@ -46,8 +46,9 @@ const Box = styled(motion(NavLink))`
 const Image = styled.div`
   background-image: ${(props) => `url(${props.img})`};
   width: 100%;
-  height: 60%;
-  background-size: cover;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
   border: 1px solid transparent;
   background-position: center center;
 
