@@ -3,14 +3,12 @@ import {
   Twitter,
   Instagram,
   Document,
-  Facebook,
-  YouTube,
+  // Facebook,
+  // YouTube,
 } from "../components/AllSvgs";
-
 import styled from "styled-components";
 import { motion } from "framer-motion";
-
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import { DarkTheme, mediaQueries } from "../components/Themes";
 
 const Icons = styled.div`
