@@ -1,13 +1,10 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, lazy, Suspense } from "react";
-
 import styled, { ThemeProvider } from "styled-components";
-
 import { YinYang } from "./AllSvgs";
 // import { Work } from "./WorkData";
 import { Project } from "./ProjectData";
 import { DarkTheme, mediaQueries } from "./Themes";
-
 import Card from "../subComponents/Card";
 import Loading from "../subComponents/Loading";
 
@@ -35,8 +32,6 @@ const Main = styled(motion.ul)`
   display: flex;
 
   ${mediaQueries(50)`
-        
-        
         left:calc(8rem + 15vw);
 
   `};

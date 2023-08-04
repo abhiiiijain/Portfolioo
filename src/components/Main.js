@@ -106,7 +106,7 @@ const CERTIFICATION = styled(NavLink)`
   position: absolute;
   top: 55%;
   right: calc(-2rem + 2vw);
-  transform: rotate(90deg) translate(-50%, -50%) ;
+  transform: rotate(90deg) translate(-50%, -50%);
   z-index: 1;
 
   text-decoration: none;
@@ -272,8 +272,11 @@ const Main = () => {
           )}
 
           {mq ? (
-          // <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
-          <CERTIFICATION click={+click} onClick={() => setpath("certification")} to="/certifications">
+            // <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
+            <CERTIFICATION
+              click={+click}
+              onClick={() => setpath("certification")}
+              to="/certifications">
               <motion.h2
                 initial={{
                   y: -200,
@@ -284,31 +287,30 @@ const Main = () => {
                   transition: { type: "spring", duration: 1.5, delay: 1 },
                 }}
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-              >
+                whileTap={{ scale: 0.9 }}>
                 Certifications
               </motion.h2>
             </CERTIFICATION>
           ) : (
             // <BLOG click={+false} onClick={() => setpath("blog")} to="/blog">
             <CERTIFICATION
-            click={+false}
-            onClick={() => setpath("certification")}
-            to="/certifications">
-            <motion.h2
-              initial={{
-                y: -200,
-                transition: { type: "spring", duration: 1.5, delay: 1 },
-              }}
-              animate={{
-                y: 0,
-                transition: { type: "spring", duration: 1.5, delay: 1 },
-              }}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}>
-              Certifications
-            </motion.h2>
-          </CERTIFICATION>
+              click={+false}
+              onClick={() => setpath("certification")}
+              to="/certifications">
+              <motion.h2
+                initial={{
+                  y: -200,
+                  transition: { type: "spring", duration: 1.5, delay: 1 },
+                }}
+                animate={{
+                  y: 0,
+                  transition: { type: "spring", duration: 1.5, delay: 1 },
+                }}
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}>
+                Certifications
+              </motion.h2>
+            </CERTIFICATION>
           )}
 
           {/* <WORK click={+click} to="/work"> */}

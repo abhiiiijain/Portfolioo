@@ -44,9 +44,8 @@ export const Certifications = [
     id: 6,
     name: "C (Advanced) | HackerRank",
     tags: ["C"],
-    date:"Sep 15, 2020",
-    imgSrc:
-      "https://i.imgur.com/p0s9ZXC.jpg",
+    date: "Sep 15, 2020",
+    imgSrc: "https://i.imgur.com/p0s9ZXC.jpg",
     link: "https://www.hackerrank.com/certificates/53f0b0236fe8/",
   },
   // {
