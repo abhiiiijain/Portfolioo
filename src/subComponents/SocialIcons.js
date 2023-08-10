@@ -128,8 +128,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://drive.google.com/file/d/1EaWobkG910zq9kx2L21WCimAm5vWPRL-/view?usp=sharing"}
-          // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
+          href={"https://drive.google.com/file/d/1GaLpWs3rFaAotqY_Q3RV1tbu10JmBh2e/view?usp=sharing"}
         >
           <Document
             width={25}
