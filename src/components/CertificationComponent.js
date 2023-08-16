@@ -110,9 +110,7 @@ const item = {
   show: { scale: 1, transition: { type: "spring", duration: 0.5 } },
 };
 
-// const BlogComponent = (props) => {
 const CertificationComponent = (props) => {
-  // const { name, tags, date, imgSrc, link } = props.blog;
   const { name, tags, date, imgSrc, link } = props.certification;
   return (
     <Container variants={item}>
@@ -130,5 +128,4 @@ const CertificationComponent = (props) => {
   );
 };
 
-// export default BlogComponent;
 export default CertificationComponent;

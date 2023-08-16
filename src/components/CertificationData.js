@@ -1,4 +1,3 @@
-// export const Blogs = [
 export const Certifications = [
   {
     id: 1,

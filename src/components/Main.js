@@ -100,7 +100,6 @@ const Contact = styled.a`
   text-decoration: none;
   z-index: 1;
 `;
-// const BLOG = styled(NavLink)`
 const CERTIFICATION = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
@@ -272,7 +271,6 @@ const Main = () => {
           )}
 
           {mq ? (
-            // <BLOG click={+click} onClick={() => setpath("blog")} to="/blog">
             <CERTIFICATION
               click={+click}
               onClick={() => setpath("certification")}
@@ -292,7 +290,6 @@ const Main = () => {
               </motion.h2>
             </CERTIFICATION>
           ) : (
-            // <BLOG click={+false} onClick={() => setpath("blog")} to="/blog">
             <CERTIFICATION
               click={+false}
               onClick={() => setpath("certification")}

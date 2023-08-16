@@ -1,12 +1,8 @@
 import styled from "styled-components";
 import { lazy, Suspense, useEffect, useState } from "react";
 import { motion } from "framer-motion";
-
 import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
-// import { Blogs } from "./BlogData";
 import { Certifications } from "./CertificationData";
-
-// import BlogComponent from "./BlogComponent";
 import CertificationComponent from "./CertificationComponent";
 import Loading from "../subComponents/Loading";
 import { mediaQueries } from "./Themes";
@@ -69,7 +65,6 @@ const container = {
   },
 };
 
-// const BlogPage = () => {
 const CertificationPage = () => {
   const [number, setNumber] = useState(0);
 
@@ -95,9 +90,6 @@ const CertificationPage = () => {
 
           <Center>
             <Grid variants={container} initial="hidden" animate="show">
-              {/* {Blogs.map((blog) => (
-                <BlogComponent key={blog.id} blog={blog} />
-              ))} */}
               {Certifications.map((certification) => (
                 <CertificationComponent
                   key={certification.id}
@@ -115,5 +107,4 @@ const CertificationPage = () => {
   );
 };
 
-// export default BlogPage;
 export default CertificationPage;
