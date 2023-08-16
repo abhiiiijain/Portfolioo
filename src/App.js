@@ -37,8 +37,6 @@ function App() {
 
               <Route path="/certifications" element={<CertificationPage />} />
 
-              {/* <Route path="/work" element={<WorkPage />} /> */}
-
               <Route path="/projects" element={<ProjectPage />} />
 
               <Route path="/skills" element={<MySkillsPage />} />

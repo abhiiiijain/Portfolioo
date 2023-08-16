@@ -1,4 +1,3 @@
-// export const Work = [
 export const Project = [
   {
     id: 1,

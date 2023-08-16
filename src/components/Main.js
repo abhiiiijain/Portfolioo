@@ -113,7 +113,7 @@ const CERTIFICATION = styled(NavLink)`
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
 `;
-// const WORK = styled(NavLink)`
+
 const PROJECT = styled(NavLink)`
   color: ${(props) => (props.click ? props.theme.body : props.theme.text)};
   position: absolute;
@@ -126,6 +126,7 @@ const PROJECT = styled(NavLink)`
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
   }
 `;
+
 const BottomBar = styled.div`
   position: absolute;
   bottom: 1rem;
@@ -310,10 +311,8 @@ const Main = () => {
             </CERTIFICATION>
           )}
 
-          {/* <WORK click={+click} to="/work"> */}
           <PROJECT click={+click} to="/projects">
             <motion.h2
-              // onClick={() => setpath("work")}
               onClick={() => setpath("project")}
               initial={{
                 y: -200,

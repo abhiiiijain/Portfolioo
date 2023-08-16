@@ -1,13 +1,9 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, lazy, Suspense } from "react";
-
 import styled, { ThemeProvider } from "styled-components";
-
 import { YinYang } from "./AllSvgs";
-// import { Work } from "./WorkData";
 import { Project } from "./ProjectData";
 import { DarkTheme, mediaQueries } from "./Themes";
-
 import Card from "../subComponents/Card";
 import Loading from "../subComponents/Loading";
 
@@ -100,7 +96,6 @@ const container = {
   },
 };
 
-// const WorkPage = () => {
 const ProjectPage = () => {
   const ref = useRef(null);
 
@@ -125,7 +120,6 @@ const ProjectPage = () => {
   return (
     <ThemeProvider theme={DarkTheme}>
       <Box
-        // key="work"
         key="project"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, transition: { duration: 1 } }}
@@ -135,7 +129,6 @@ const ProjectPage = () => {
         <SocialIcons theme="dark" />
         <Suspense fallback={<Loading />}>
           <Main ref={ref} variants={container} initial="hidden" animate="show">
-            {/* {Work.map((d) => ( */}
             {Project.map((d) => (
               <Card key={d.id} data={d} />
             ))}
@@ -152,5 +145,4 @@ const ProjectPage = () => {
   );
 };
 
-// export default WorkPage;
 export default ProjectPage;
