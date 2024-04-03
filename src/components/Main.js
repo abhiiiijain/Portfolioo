@@ -332,7 +332,7 @@ const Main = () => {
             <ABOUT
               onClick={() => setClick(false)}
               click={mq ? +false : +click}
-              to="/about">
+              to="/portfolio/about">
               <motion.h2
                 onClick={() => setpath("about")}
                 initial={{
