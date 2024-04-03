@@ -362,7 +362,7 @@ const Main = () => {
                 }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}>
-                My Skills
+                Skills & Experience
               </motion.h2>
             </SKILLS>
           </BottomBar>

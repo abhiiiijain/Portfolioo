@@ -29,13 +29,19 @@ const Box = styled(motion.div)`
             padding:8rem 0;
             height:auto;
             &>*:nth-child(5){
-              margin-bottom:5rem;
+              margin-bottom:4rem;
+            }
+            &>*:nth-child(6){
+              margin-bottom:4rem;
             }
            
   `};
   ${mediaQueries(30)`
            
             &>*:nth-child(5){
+              margin-bottom:4rem;
+            }
+            &>*:nth-child(6){
               margin-bottom:4rem;
             }
            
@@ -47,7 +53,7 @@ const Main = styled(motion.div)`
   color: ${(props) => props.theme.text};
   background-color: ${(props) => props.theme.body};
   padding: 2rem;
-  width: 30vw;
+  width: 20vw;
   height: 60vh;
   z-index: 3;
   line-height: 1.5;
@@ -161,43 +167,63 @@ const MySkillsPage = () => {
           <SocialIcons theme="light" />
           <ParticlesComponent theme="light" />
 
+          {/* Skills */}
           <Main>
             <Title>
-              <Design width={40} height={40} /> Designer
+              <Design width={40} height={40} /> Skills
             </Title>
             <Description>
-              I love to create interactive designs which makes it easier for the
-              user to interact.
-            </Description>
-            <Description>
-              <strong>I like to Design</strong> <br />
               <ul>
-                <li>Web Design</li>
-                {/* <li>Mobile Apps</li> */}
-              </ul>
-            </Description>
-            <Description>
-              <strong>Tools</strong> <br />
-              <ul>
-                <li>Figma</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>ReactJs</li>
+                <li>NodeJs</li>
+                <li>SQL</li>
+                <li>Adobe Photoshop</li>
               </ul>
             </Description>
           </Main>
+
+          {/* Experience 1 */}
           <Main>
             <Title>
-              <Develope width={40} height={40} /> Frontend Developer
+              <Develope width={40} height={40} /> Experience
             </Title>
-            <Description>Working in this field from last 3 Years.</Description>
             <Description>
-              <strong>Skills</strong> <br />
-              <p>Html, Css, Js, React, Redux, Sass, Bootstrap etc.</p>
+              <b>Software Developer Trainee </b>
+              @Connecting Points Tech
+              <ul>
+                <li>Jun 2022 - Sep 2022 | Mohali, INDIA</li>
+              </ul>
             </Description>
             <Description>
-              <strong>Tools</strong> <br />
-              <p>VScode, Github</p>
+              <strong>Tech Stack</strong> <br />
+              <p>HTML, CSS , JavaScript, ReactJs, Redux, Rest Api's</p>
             </Description>
           </Main>
-          <BigTitle text="Skills" top="80%" right="30%" />
+
+          {/* Experience 2 */}
+          <Main>
+            <Title>
+              <Develope width={40} height={40} /> Experience
+            </Title>
+            <Description>
+              <b>Frontend Developer Intern </b>
+              @A2it Solution Pvt. Ltd.
+              <ul>
+                <li>Jan 2023 - Jun 2023 | Mohali, INDIA</li>
+              </ul>
+            </Description>
+            <Description>
+              <strong>Tech Stack</strong> <br />
+              <p>HTML, CSS , JavaScript, ReactJs, NodeJs, Mongo DB</p>
+            </Description>
+          </Main>
+          
+          <BigTitle text="Skills & Experience" top="84%" right="10%" />
         </Box>
       </Suspense>
     </ThemeProvider>
