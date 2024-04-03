@@ -33,7 +33,7 @@ function App() {
 
               <Route path="/" element={<Main />} />
 
-              <Route path="/Portfolioo/about" element={<AboutPage />} />
+              <Route path="/about" element={<AboutPage />} />
 
               <Route path="/certifications" element={<CertificationPage />} />
 
