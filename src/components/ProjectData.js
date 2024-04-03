@@ -62,7 +62,7 @@ export const Project = [
     id: 8,
     name: "Arkitektur",
     description: "An Interior Design Website.",
-    tags: ["mongoDB, reactjs, nodeJs"],
+    tags: ["mongoDB", "reactjs", "nodeJs"],
     demo: "https://github.com/abhiiiijain/Arkitektur",
     github: "https://github.com/abhiiiijain/Arkitektur",
   },
