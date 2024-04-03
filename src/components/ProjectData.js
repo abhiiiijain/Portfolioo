@@ -58,13 +58,20 @@ export const Project = [
     demo: "https://abhiiiijain.github.io/Portfolioo/",
     github: "https://github.com/abhiiiijain/Portfolioo",
   },
+  {
+    id: 8,
+    name: "Arkitektur",
+    description: "An Interior Design Website.",
+    tags: ["mongoDB, reactjs, nodeJs"],
+    demo: "https://github.com/abhiiiijain/Arkitektur",
+    github: "https://github.com/abhiiiijain/Arkitektur",
+  },
   // {
-  //     id:8,
-  //     name:"Arkitektur",
-  //     description:"An Interior Design Website.",
-  //     tags:["mongoDB, reactjs, nodeJs"]
-  //     demo:"https://github.com/abhiiiijain/Arkitektur",
-  //     github:"https://github.com/abhiiiijain/Arkitektur"
-
+  //   id: 9,
+  //   name: "Arkitekturrnyn",
+  //   description: "An Interior Design Website.",
+  //   tags: ["mongoDB, reactjs, nodeJs"],
+  //   demo: "https://github.com/abhiiiijain/Arkitektur",
+  //   github: "https://github.com/abhiiiijain/Arkitektur",
   // },
 ];

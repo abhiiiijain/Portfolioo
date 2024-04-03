@@ -196,7 +196,7 @@ const MySkillsPage = () => {
               <b>Software Developer Trainee </b>
               @Connecting Points Tech
               <ul>
-                <li>Jun 2022 - Sep 2022 | Mohali, INDIA</li>
+                <li>Jun 2022 - Sep 2022 | Remote</li>
               </ul>
             </Description>
             <Description>
@@ -211,7 +211,7 @@ const MySkillsPage = () => {
               <Develope width={40} height={40} /> Experience
             </Title>
             <Description>
-              <b>Frontend Developer Intern </b>
+              <b>Mern Stack Intern </b>
               @A2it Solution Pvt. Ltd.
               <ul>
                 <li>Jan 2023 - Jun 2023 | Mohali, INDIA</li>
@@ -222,7 +222,7 @@ const MySkillsPage = () => {
               <p>HTML, CSS , JavaScript, ReactJs, NodeJs, Mongo DB</p>
             </Description>
           </Main>
-          
+
           <BigTitle text="Skills & Experience" top="84%" right="10%" />
         </Box>
       </Suspense>

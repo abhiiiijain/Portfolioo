@@ -10,7 +10,7 @@ const Box = styled(motion.li)`
   background-color: ${(props) => props.theme.text};
   color: ${(props) => props.theme.body};
   padding: 1.5rem 2rem;
-  margin-right: 8rem;
+  margin-right: 6rem;
   border-radius: 0 50px 0 50px;
   display: flex;
   flex-direction: column;

@@ -17,40 +17,56 @@ const Box = styled(motion.div)`
   position: relative;
   display: flex;
   height: 400vh;
+
+  ${mediaQueries(100)`
+  height: 450vh;
+  `};
+
+  ${mediaQueries(80)`
+  height: 480vh;
+  `};
+
+  ${mediaQueries(60)`
+  height: 500vh;  
+  `};
+
+  ${mediaQueries(40)`
+    height: 450vh;
+    `};
+
+  ${mediaQueries(25)`        
+  height: 400vh;
+  `};
 `;
 
 const Main = styled(motion.ul)`
   position: fixed;
   top: 12rem;
-  left: calc(10rem + 15vw);
+  left: calc(4rem + 15vw);
 
-  height: 40vh;
+  height: 50vh;
   /* height:200vh; */
-  //border:1px solid white;
+  // border:1px solid white;
 
   display: flex;
 
   ${mediaQueries(50)`
-        
-        
-        left:calc(8rem + 15vw);
-
+  left:calc(4rem + 8vw);
+  
   `};
 
   ${mediaQueries(40)`
   top: 30%;
-        
-        left:calc(6rem + 15vw);
-
+  left:calc(4rem + 8vw);
+  
   `};
 
   ${mediaQueries(40)`
-        
-        left:calc(2rem + 15vw);
 
+  left:calc(2rem + 15vw);
+  
   `};
-  ${mediaQueries(25)`
-        
+  ${mediaQueries(25)`        
         left:calc(1rem + 15vw);
 
   `};

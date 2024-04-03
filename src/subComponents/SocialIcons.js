@@ -53,6 +53,7 @@ const SocialIcons = (props) => {
   return (
     <Icons>
       {/* changed initial [transform: "scale(0)"] to [scale: 0] */}
+      
       {/* Github Icon */}
       <motion.div
         initial={{ scale: 0 }}
@@ -128,7 +129,8 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://drive.google.com/file/d/1GaLpWs3rFaAotqY_Q3RV1tbu10JmBh2e/view?usp=sharing"}
+          // href={"https://drive.google.com/file/d/1GaLpWs3rFaAotqY_Q3RV1tbu10JmBh2e/view?usp=sharing"}
+          href={"https://drive.google.com/file/d/1Cdx8ee153hox9P998U6usd20kVHMv2um/view?usp=sharing"}
         >
           <Document
             width={25}
