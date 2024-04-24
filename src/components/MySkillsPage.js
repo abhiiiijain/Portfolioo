@@ -212,9 +212,27 @@ const MySkillsPage = () => {
             </Title>
             <Description>
               <b>Mern Stack Intern </b>
-              @A2it Solution Pvt. Ltd.
+              @A2it Online
               <ul>
                 <li>Jan 2023 - Jun 2023 | Mohali, INDIA</li>
+              </ul>
+            </Description>
+            <Description>
+              <strong>Tech Stack</strong> <br />
+              <p>HTML, CSS , JavaScript, ReactJs, NodeJs, Mongo DB</p>
+            </Description>
+          </Main>
+
+          {/* Experience 3 */}
+          <Main>
+            <Title>
+              <Develope width={40} height={40} /> Experience
+            </Title>
+            <Description>
+              <b>Software Engineer Trainee </b>
+              @Twigz Technologies Private Limited
+              <ul>
+                <li>Sep 2023 - Present | Gurugram, INDIA</li>
               </ul>
             </Description>
             <Description>

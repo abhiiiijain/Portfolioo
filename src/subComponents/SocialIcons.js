@@ -130,7 +130,8 @@ const SocialIcons = (props) => {
           target="_blank"
           rel="noreferrer"
           // href={"https://drive.google.com/file/d/1GaLpWs3rFaAotqY_Q3RV1tbu10JmBh2e/view?usp=sharing"}
-          href={"https://drive.google.com/file/d/1Cdx8ee153hox9P998U6usd20kVHMv2um/view?usp=sharing"}
+          // href={"https://drive.google.com/file/d/1Cdx8ee153hox9P998U6usd20kVHMv2um/view?usp=sharing"}
+          href={"https://drive.google.com/file/d/1f_7XH1zbc82xRXon0ahOtagxSeWa1KcN/view?usp=sharing"}
         >
           <Document
             width={25}
