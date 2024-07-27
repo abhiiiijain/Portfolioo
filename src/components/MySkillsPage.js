@@ -34,6 +34,9 @@ const Box = styled(motion.div)`
             &>*:nth-child(6){
               margin-bottom:4rem;
             }
+            &>*:nth-child(7){
+              margin-bottom:4rem;
+            }
            
   `};
   ${mediaQueries(30)`
@@ -42,6 +45,9 @@ const Box = styled(motion.div)`
               margin-bottom:4rem;
             }
             &>*:nth-child(6){
+              margin-bottom:4rem;
+            }
+            &>*:nth-child(7){
               margin-bottom:4rem;
             }
            
@@ -182,7 +188,8 @@ const MySkillsPage = () => {
                 <li>ReactJs</li>
                 <li>NodeJs</li>
                 <li>SQL</li>
-                <li>Adobe Photoshop</li>
+                <li>Express</li>
+                <li>MongoDB</li>
               </ul>
             </Description>
           </Main>
@@ -240,7 +247,6 @@ const MySkillsPage = () => {
               <p>HTML, CSS , JavaScript, ReactJs, NodeJs, Mongo DB</p>
             </Description>
           </Main>
-
           <BigTitle text="Skills & Experience" top="84%" right="10%" />
         </Box>
       </Suspense>

@@ -129,9 +129,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          // href={"https://drive.google.com/file/d/1GaLpWs3rFaAotqY_Q3RV1tbu10JmBh2e/view?usp=sharing"}
-          // href={"https://drive.google.com/file/d/1Cdx8ee153hox9P998U6usd20kVHMv2um/view?usp=sharing"}
-          href={"https://drive.google.com/file/d/10xxnpIwUia1b5SrDY8DdwCnMVVcJhOjY/view?usp=sharing"}
+          href={"https://drive.google.com/file/d/1iXIGmxaDHaEILzKxxa9R2oRoJpzdy2lU/view?usp=sharing"}
         >
           <Document
             width={25}

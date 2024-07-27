@@ -107,11 +107,7 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            {/* Currently pursuing Bachelors of Technology from Chandigarh
-            Engineering College, CGC Landran. Skilled in C, C++, Web
-            Development(HTML, CSS, Java Script and reactJS) with Good Problem
-            Solving Skills and profound Knowledge of C, C++ and Data Structures. */}
-            I am driven by the desire to work and grow in a dynamic and
+            {/* I am driven by the desire to work and grow in a dynamic and
             competitive workplace, where I can explore cutting-edge
             technologies, expand my knowledge horizons, and achieve both
             personal and organizational objectives. I did my Bachelor's of
@@ -121,7 +117,15 @@ const AboutPage = () => {
             experience in C++ programming and have earned a 5-star C++ badge on
             Hackerrank. In addition, I am adept at web development technologies
             such as HTML, CSS, JavaScript, and ReactJS. I possess strong
-            problem-solving skills and a solid understanding of data structures.
+            problem-solving skills and a solid understanding of data structures. */}
+            Dedicated Software Engineer with 1 year of experience in the MERN
+            stack and MySQL. I hold a B.Tech in CSE and have successfully
+            developed full-stack web applications. Skilled in JavaScript, HTML,
+            CSS, and Git, with a strong foundation in agile methodologies. I
+            excel in creating efficient, scalable software solutions and am
+            passionate about continuous learning. As an immediate joiner, I am
+            eager to contribute to dynamic projects in a forward-thinking
+            organization.
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
