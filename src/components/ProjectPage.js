@@ -39,38 +39,70 @@ const Box = styled(motion.div)`
   `};
 `;
 
+// const Main = styled(motion.ul)`
+//   position: fixed;
+//   top: 12rem;
+//   left: calc(4rem + 15vw);
+//   height: 50vh;
+//   display: flex;
+//   /* height:200vh; */
+//   // border:1px solid white;
+
+
+
+//   ${mediaQueries(50)`
+//   left:calc(4rem + 8vw);
+  
+//   `};
+
+//   ${mediaQueries(40)`
+//   top: 30%;
+//   left:calc(4rem + 8vw);
+  
+//   `};
+
+//   ${mediaQueries(40)`
+
+//   left:calc(2rem + 15vw);
+  
+//   `};
+//   ${mediaQueries(25)`        
+//         left:calc(1rem + 15vw);
+
+//   `};
+// `;
+
 const Main = styled(motion.ul)`
   position: fixed;
   top: 12rem;
-  left: calc(4rem + 15vw);
+  left: calc(4rem + 10vw);
+  width: calc(100% - 4rem - 10vw);  // Adjusted width to be flexible
 
   height: 50vh;
-  /* height:200vh; */
-  // border:1px solid white;
-
   display: flex;
 
   ${mediaQueries(50)`
-  left:calc(4rem + 8vw);
-  
+    left:calc(4rem + 8vw);
+    width: calc(100% - 4rem - 8vw);  // Adjusted width to be flexible
   `};
 
   ${mediaQueries(40)`
-  top: 30%;
-  left:calc(4rem + 8vw);
-  
+    top: 30%;
+    left:calc(4rem + 8vw);
+    width: calc(100% - 4rem - 8vw);  // Adjusted width to be flexible
   `};
 
   ${mediaQueries(40)`
-
-  left:calc(2rem + 15vw);
-  
+    left:calc(2rem + 15vw);
+    width: calc(100% - 2rem - 15vw);  // Adjusted width to be flexible
   `};
+
   ${mediaQueries(25)`        
-        left:calc(1rem + 15vw);
-
+    left:calc(1rem + 15vw);
+    width: calc(100% - 1rem - 15vw);  // Adjusted width to be flexible
   `};
 `;
+
 
 const Rotate = styled.span`
   display: block;

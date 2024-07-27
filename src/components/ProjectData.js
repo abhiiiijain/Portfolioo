@@ -38,7 +38,7 @@ export const Project = [
     id: 5,
     name: "Weather App",
     description:
-      "A weather app that provides real-time updates using your location or by entering a city name. It offers current weather conditions. Built with React for the frontend and integrates with weather APIs for accurate data.",
+      "A weather app that provides real-time updates using your location or by entering a city name. It offers current weather conditions. Integrates with weather APIs for accurate data.",
     tags: ["reactJs", "Api"],
     demo: "https://abhiiiijain.github.io/weather/",
     github: "https://github.com/abhiiiijain/weather",
