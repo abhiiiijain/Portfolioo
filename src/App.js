@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import { lazy, Suspense } from "react";
 import GlobalStyle from "./globalStyles";
@@ -50,12 +50,4 @@ function App() {
   );
 }
 
-export default function WrappedApp() {
-  return (
-    <Router>
-      <App />
-    </Router>
-  );
-}
-
-// export default App;
+export default App;
