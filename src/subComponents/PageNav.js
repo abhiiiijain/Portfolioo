@@ -6,24 +6,33 @@ const Container = styled.nav`
   position: fixed;
   inset: 0;
   pointer-events: none;
-  z-index: 3;
+  z-index: 5;
 `;
 
 const SideLink = styled(NavLink)`
   position: absolute;
   top: 50%;
-  transform: translateY(-50%) rotate(${(p) => (p.$right ? "90deg" : "-90deg")});
-  ${(p) => (p.$right ? "right: calc(-2rem + 2vw);" : "left: calc(1rem + 2vw);")}
+  ${(p) =>
+    p.$right
+      ? "right: 0; transform: translateY(-50%) rotate(90deg);"
+      : "left: 0; transform: translateY(-50%) rotate(-90deg);"}
+  transform-origin: center;
   color: ${(p) => p.$color};
   text-decoration: none;
   pointer-events: auto;
   font-family: "Karla", sans-serif;
   font-weight: 500;
   font-size: 1.25rem;
+  padding: 8px 12px;
 
   ${mediaQueries(50)`
     text-shadow: 0 0 4px #000;
     font-size: 1.1rem;
+    ${(p) =>
+      p.$right
+        ? "right: 0;"
+        : "left: 0;"}
+    padding: 6px 10px;
   `};
 `;
 
@@ -35,6 +44,7 @@ const BottomBar = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  pointer-events: none;
 `;
 
 const BottomLink = styled(NavLink)`
@@ -62,7 +72,7 @@ const PageNav = ({ variant = "light" }) => {
   return (
     <Container aria-label="Page navigation">
       {!isProjects && (
-        <SideLink to="/projects" $color={color}> 
+        <SideLink to="/projects" $color={color}>
           <span>Projects</span>
         </SideLink>
       )}

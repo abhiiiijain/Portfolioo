@@ -29,7 +29,7 @@ const Box = styled(motion.div)`
 
   ${mediaQueries(50)`
             flex-direction:column;  
-            padding:8rem 0;
+            padding:8rem 0 6rem;
             min-height:auto;
             &>*:nth-child(5){
               margin-bottom:4rem;
@@ -63,12 +63,14 @@ const Main = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
   padding: 2rem;
   width: 20vw;
-  height: 60vh;
-  z-index: 3;
+  height: max-content;
+  max-height: 60vh;
+  overflow: auto;
+  z-index: 5;
   line-height: 1.5;
 
   ${mediaQueries(60)`
-            height: 55vh;
+            max-height: 55vh;
   `};
 
   ${mediaQueries(50)`
@@ -179,7 +181,8 @@ const Content = styled.div`
 
   ${mediaQueries(60)`
     grid-template-columns: 1fr;
-    width: 90vw;
+    width: 92vw;
+    justify-items: center;
   `};
 `;
 
