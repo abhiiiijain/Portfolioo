@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import { lazy, Suspense, useState } from "react";
 import { motion } from "framer-motion";
 
-//Components
+// Components
 import { YinYang } from "./AllSvgs";
 import Intro from "./Intro";
 import Loading from "../subComponents/Loading";
@@ -14,8 +14,6 @@ const SocialIcons = lazy(() => import("./../subComponents/SocialIcons"));
 
 const LogoComponent = lazy(() => import("./../subComponents/LogoComponent"));
 
-//   import SocialIcons from './../subComponents/SocialIcons';
-// import LogoComponent from './../subComponents/LogoComponent';
 
 const MainContainer = styled(motion.div)`
   background: ${(props) => props.theme.body};
@@ -189,7 +187,6 @@ const Main = () => {
     y: "-100%",
   };
   const moveX = {
-    // x: `${path === "work" ? "100%" : "-100%"}`,
     x: `${path === "project" ? "100%" : "-100%"}`,
   };
   const mq = window.matchMedia("(max-width: 50em)").matches;

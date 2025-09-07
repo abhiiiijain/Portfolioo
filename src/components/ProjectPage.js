@@ -11,6 +11,7 @@ const SocialIcons = lazy(() => import("../subComponents/SocialIcons"));
 const PowerButton = lazy(() => import("../subComponents/PowerButton"));
 const LogoComponent = lazy(() => import("../subComponents/LogoComponent"));
 const BigTitle = lazy(() => import("../subComponents/BigTitle"));
+const PageNav = lazy(() => import("../subComponents/PageNav"));
 
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
@@ -175,6 +176,7 @@ const ProjectPage = () => {
         <LogoComponent theme="dark" />
         <PowerButton />
         <SocialIcons theme="dark" />
+        <PageNav variant="dark" />
         <Suspense fallback={<Loading />}>
           <Main ref={ref} variants={container} initial="hidden" animate="show">
             {Project.map((d) => (

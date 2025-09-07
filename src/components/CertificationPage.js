@@ -12,6 +12,7 @@ const SocialIcons = lazy(() => import("../subComponents/SocialIcons"));
 const PowerButton = lazy(() => import("../subComponents/PowerButton"));
 const LogoComponent = lazy(() => import("../subComponents/LogoComponent"));
 const BigTitle = lazy(() => import("../subComponents/BigTitle"));
+const PageNav = lazy(() => import("../subComponents/PageNav"));
 
 const MainContainer = styled(motion.div)`
   background-image: url(${img});
@@ -86,6 +87,7 @@ const CertificationPage = () => {
           <PowerButton />
 
           <SocialIcons />
+          <PageNav variant="light" />
           <AnchorComponent number={number} />
 
           <Center>

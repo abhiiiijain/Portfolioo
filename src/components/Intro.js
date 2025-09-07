@@ -161,7 +161,6 @@ const Text = styled(motion.div)`
 `;
 
 const Intro = () => {
-  /* console.log(mq); */
   const [height, setHeight] = useState("55vh");
 
   useEffect(() => {
@@ -185,7 +184,7 @@ const Intro = () => {
 
           <h3>I'm Abhinandan Jain</h3>
 
-          <h5>A B.Tech graduate in Computer Science and Engineering </h5>
+          <h5>FullStack Web Developer</h5>
         </Text>
       </SubBox>
 

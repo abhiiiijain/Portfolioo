@@ -6,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 import { lightTheme } from "./components/Themes";
 import Loading from "./subComponents/Loading";
 
-//Components
+// Components
 const Main = lazy(() => import("./components/Main"));
 const AboutPage = lazy(() => import("./components/AboutPage"));
 const MySkillsPage = lazy(() => import("./components/MySkillsPage"));
@@ -24,13 +24,8 @@ function App() {
       <ThemeProvider theme={lightTheme}>
         <Suspense fallback={<Loading />}>
           <SoundBar />
-          {/* Changed prop from exitBefore to mode */}
           <AnimatePresence mode="wait">
-            {/* Changed Switch to Routes */}
-
             <Routes location={location} key={location.pathname}>
-              {/* Changed component to element */}
-
               <Route path="/" element={<Main />} />
 
               <Route path="/about" element={<AboutPage />} />

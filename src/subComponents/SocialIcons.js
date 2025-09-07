@@ -1,14 +1,6 @@
-import {
-  Github,
-  Twitter,
-  Instagram,
-  Document,
-  // Facebook,
-  // YouTube,
-} from "../components/AllSvgs";
+import { Github, Document, LinkedIn } from "../components/AllSvgs";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-// import { NavLink } from "react-router-dom";
 import { DarkTheme, mediaQueries } from "../components/Themes";
 
 const Icons = styled.div`
@@ -52,9 +44,7 @@ const SocialIcons = (props) => {
 
   return (
     <Icons>
-      {/* changed initial [transform: "scale(0)"] to [scale: 0] */}
-      
-      {/* Github Icon */}
+      {/* Github */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
@@ -64,7 +54,6 @@ const SocialIcons = (props) => {
           target="_blank"
           rel="noreferrer"
           href={"https://github.com/abhiiiijain"}
-          // to={{ pathname: "https://github.com/abhiiiijain" }}
         >
           <Github
             width={25}
@@ -75,20 +64,18 @@ const SocialIcons = (props) => {
           />
         </a>
       </motion.div>
-
-      {/* Twitter Icon */}
+      {/* LinkedIn */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1.2 }}>
+        transition={{ type: "spring", duration: 1, delay: 1.4 }}>
         <a
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://twitter.com/abhiiiijain1"}
-          // to={{ pathname: "https://twitter.com/abhiiiijain1" }}
+          href={"https://www.linkedin.com/in/abhiiiijain"}
         >
-          <Twitter
+          <LinkedIn
             width={25}
             height={25}
             fill={
@@ -98,7 +85,7 @@ const SocialIcons = (props) => {
         </a>
       </motion.div>
 
-      {/* Instagram Icon */}
+      {/* Resume */}
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: [0, 1, 1.5, 1] }}
@@ -107,29 +94,8 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href={"https://www.instagram.com/abhiiiijain"}
-          // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
-        >
-          <Instagram
-            width={25}
-            height={25}
-            fill={
-              props.theme === "dark" ? `${DarkTheme.text}` : `${DarkTheme.body}`
-            }
-          />
-        </a>
-      </motion.div>
-
-      {/* Document Icon */}
-      <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1.4 }}>
-        <a
-          style={{ color: "inherit" }}
-          target="_blank"
-          rel="noreferrer"
-          href={"https://drive.google.com/file/d/1iXIGmxaDHaEILzKxxa9R2oRoJpzdy2lU/view?usp=sharing"}
+          href={`${process.env.PUBLIC_URL}/Abhinandan_Jain.pdf`}
+          download
         >
           <Document
             width={25}
@@ -141,51 +107,6 @@ const SocialIcons = (props) => {
         </a>
       </motion.div>
 
-      {/* Facebook Icon */}
-      {/* <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1.4 }}
-      >
-        <a
-          style={{ color: "inherit" }}
-          target="_blank"
-          href={"https://www.facebook.com/abhiiiijain/" }
-          // to={{ pathname: "https://www.instagram.com/abhiiiijain" }}
-        >
-          <Facebook
-            width={25}
-            height={25}
-            fill={
-              props.theme === "dark" ? `${DarkTheme.text}` : `${DarkTheme.body}`
-            }
-          />
-        </a>
-      </motion.div> */}
-
-      {/* Youtube Icon */}
-      {/* <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: [0, 1, 1.5, 1] }}
-        transition={{ type: "spring", duration: 1, delay: 1.6 }}
-      >
-        <NavLink
-          style={{ color: "inherit" }}
-          target="_blank"
-          to={{
-            pathname:
-              "https://www.youtube.com/channel/UCeYt6blRBKuNrEg_-282fSA",
-          }}
-        >
-          <YouTube
-            width={25}
-            height={25}
-            fill={
-              props.theme === "dark" ? `${DarkTheme.text}` : `${DarkTheme.body}`
-            }
-          />
-        </NavLink>
-      </motion.div> */}
 
       <Line
         initial={{ height: 0 }}

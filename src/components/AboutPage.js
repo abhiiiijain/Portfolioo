@@ -14,6 +14,7 @@ const ParticlesComponent = lazy(() =>
   import("../subComponents/ParticlesComponent")
 );
 const BigTitle = lazy(() => import("../subComponents/BigTitle"));
+const PageNav = lazy(() => import("../subComponents/PageNav"));
 
 const Box = styled(motion.div)`
   background-color: ${(props) => props.theme.body};
@@ -93,6 +94,7 @@ const AboutPage = () => {
           <PowerButton />
           <SocialIcons theme="dark" />
           <ParticlesComponent theme="dark" />
+          <PageNav variant="dark" />
 
           <SpaceMan
             initial={{ right: "-20%", top: "100%" }}
@@ -107,25 +109,16 @@ const AboutPage = () => {
           <Main
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}>
-            {/* I am driven by the desire to work and grow in a dynamic and
-            competitive workplace, where I can explore cutting-edge
-            technologies, expand my knowledge horizons, and achieve both
-            personal and organizational objectives. I did my Bachelor's of
-            Technology in Computer Science from Chandigarh Engineering College,
-            CGC Landran. My skills include proficiency in C++, Data Structures
-            and Algorithms (DSA), and Web Development. I have hands-on
-            experience in C++ programming and have earned a 5-star C++ badge on
-            Hackerrank. In addition, I am adept at web development technologies
-            such as HTML, CSS, JavaScript, and ReactJS. I possess strong
-            problem-solving skills and a solid understanding of data structures. */}
-            Dedicated Software Engineer with 1 year of experience in the MERN
-            stack and MySQL. I hold a B.Tech in CSE and have successfully
-            developed full-stack web applications. Skilled in JavaScript, HTML,
-            CSS, and Git, with a strong foundation in agile methodologies. I
-            excel in creating efficient, scalable software solutions and am
-            passionate about continuous learning. As an immediate joiner, I am
-            eager to contribute to dynamic projects in a forward-thinking
-            organization.
+            Hi, I’m Abhinandan Jain, an innovative Software Engineer with hands-on experience in 
+            developing scalable and responsive web applications using the MERN Stack and MySQL. 
+            I hold a B.Tech in Computer Science from Chandigarh Engineering College, CGC Landran, 
+            with strong knowledge of Data Structures, Algorithms, Databases, and Networking.
+            <br />
+            I have worked with Twigz Technologies, A2it Online, and Connecting Points Tech, 
+            where I contributed to building and optimizing web applications, enhancing UI/UX, 
+            and collaborating in Agile teams. My technical expertise spans C++, C, HTML, CSS, 
+            JavaScript, ReactJS, Node.js, Express, MySQL, MongoDB, along with Redux, Tailwind CSS, 
+            Ant Design, and testing practices for robust application performance.
           </Main>
           <BigTitle text="ABOUT" top="10%" left="5%" />
         </Box>
